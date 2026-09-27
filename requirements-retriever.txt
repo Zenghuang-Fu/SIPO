@@ -1,0 +1,8 @@
+# Install in a separate environment with GPU-enabled FAISS and PyTorch.
+transformers==4.51.3
+datasets==3.5.0
+numpy==1.26.4
+fastapi==0.115.12
+uvicorn==0.34.2
+huggingface-hub
+tqdm

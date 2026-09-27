@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68,<81", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sipo-training"
+version = "0.1.0"
+description = "SIPO: full training and evaluation implementation"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+license = {file = "LICENSE"}
+dynamic = ["dependencies"]
+
+[project.optional-dependencies]
+tensorboard = ["tensorboard"]
+
+[tool.setuptools.packages.find]
+include = ["verl*"]
+namespaces = true
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.package-data]
+verl = ["version/version", "**/*.yaml", "**/*.yml"]

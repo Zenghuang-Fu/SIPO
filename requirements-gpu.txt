@@ -1,0 +1,2 @@
+# Build only after PyTorch is installed, with a compatible CUDA toolkit.
+flash-attn==2.7.4.post1

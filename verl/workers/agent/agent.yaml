@@ -1,0 +1,19 @@
+agent:
+  activate_agent: true
+  name: tool_agent
+  tools:
+    call_limit: 5
+    max_workers: 64
+    timeout: 120
+    retry_count: 3
+    tool_instances:
+      python:
+        class_path: verl.workers.agent.tools.python_tool.PythonTool
+        params:
+          conda_path: /path/to/conda
+          conda_env: verl
+      search:
+        class_path: verl.workers.agent.tools.search_tool.LocalSearchTool
+        params:
+          max_results: 10
+          result_length: 1000

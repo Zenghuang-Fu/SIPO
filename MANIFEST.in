@@ -1,0 +1,8 @@
+include LICENSE Notice.txt README.md requirements*.txt
+include .gitignore
+recursive-include configs *.yaml
+recursive-include scripts *.py
+recursive-include data_process *.py
+recursive-include rag_server *.py
+recursive-include tests *.py
+recursive-include docs *.md
