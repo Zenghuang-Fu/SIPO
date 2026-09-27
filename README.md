@@ -1,5 +1,7 @@
 # SIPO
 
+![SIPO overview: score calibration, exchangeable branching, and order-statistic correction.](assets/sipo-overview.png)
+
 Full source for SIPO training and evaluation with tool-augmented language models.
 The repository includes the training framework, tree rollout and credit assignment,
 policy losses, reward functions, data preparation, local retrieval service,
