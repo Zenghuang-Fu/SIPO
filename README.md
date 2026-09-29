@@ -227,3 +227,30 @@ documentation and license references are retained where applicable.
 
 The source release excludes Git history, experiment data, checkpoints, editor
 state, personal contact metadata, and machine-specific service configuration.
+
+## Citation
+
+If you use SIPO in your research, please cite our [paper](https://arxiv.org/abs/2609.34805):
+
+```bibtex
+@misc{fu2026sipo,
+  title = {{SIPO}: Selective-Inference Policy Optimization for Tree-Structured Agentic {RL}},
+  author = {Fu, Zenghuang
+    and Chen, Ningqi
+    and Jia, Mingda
+    and Han, Xiaofeng
+    and Li, Zhaoyang
+    and Ai, Qiuyuan
+    and Zheng, Zelong
+    and Wu, Haoyu
+    and Fu, Tianyu
+    and Zhao, Chenxu
+    and Wu, Minghui
+    and He, Guannan
+    and Wang, Changwei},
+  year = {2026},
+  eprint = {2609.34805},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2609.34805}
+}
+```
